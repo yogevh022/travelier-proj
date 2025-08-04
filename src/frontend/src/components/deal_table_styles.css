@@ -1,0 +1,32 @@
+:root {
+    --ui-gap: 15px;
+}
+
+.deal-editor {
+    z-index: 100;
+    display: none;
+
+    flex-direction: column;
+    gap: var(--ui-gap);
+    padding: var(--ui-gap);
+    position: fixed;
+    width: 400px;
+    height: 400px;
+    background: blue;
+
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.deal-editor.open {
+    display: flex;
+}
+
+th {
+    user-select: none;
+    cursor: pointer;
+}

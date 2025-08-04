@@ -1,0 +1,19 @@
+
+.page_container {
+    background: lightblue;
+    height: 100vh;
+    width: 100%;
+}
+
+.darkscreen {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    opacity: 0;
+    pointer-events: none;
+}
+.darkscreen.active {
+    opacity: 0.5;
+    pointer-events: all;
+}
