@@ -14,4 +14,5 @@ endData > startDate validation,
 sorting,
 debounced search on Deal name,
 
-does NOT implement pagination, filtering, any validation, operator IDs
+does NOT implement pagination, filtering, any validation, operator IDs.
+and its ugly!
